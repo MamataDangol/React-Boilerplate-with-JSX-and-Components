@@ -4,6 +4,7 @@ const word = 'set';
 const element = <h1> when this method is used to {word} content.</h1>
 
 ReactDOM.render(element, document.getElementById('heading'));
+
 function Button(properties){
     return <button type="submit">{properties.label} </button>
 }
